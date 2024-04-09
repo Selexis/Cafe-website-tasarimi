@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css.css">
+   <script src="https://kit.fontawesome.com/6350cd1f1e.js" crossorigin="anonymous"></script>
+ 
+   <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
+  <!--Google Fonts-->
+<!--Google Fonts h1-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<!--Google Fonts h1-->
+
+<link rel="icon" href="images/00.png" type="image/x-icon">
+
+   <title>DeathCoffeeCafe</title>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+           
+            <a href="index.html"><img src="images/00.png" alt="kahvem"></a>
+           
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-solid fa-x" onclick="hideMenu()" ></i>
+                
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="products.html">Ürünler</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+                <h1>Hakkımızda</h1>
+    </section>
+<!-----about-page----->
+<section class="about-us"
+<div class="row">
+    <div class="about-col">
+        <h1>Kahve Serüvenimiz</h1>
+        <p>Kafe, açılışından itibaren müşterilerimize yüksek kaliteli ve özenle seçilmiş kahveler sunmayı hedeflemiştir. Kahve çekirdeklerini özenle seçer, yerel ve uluslararası tedarikçilerle işbirliği yaparız. Misafirlerimize farklı aroma profillerine sahip çeşitli kahve seçenekleri sunmak için özel karışımlar oluştururuz.</p>
+            <a href="#" class="hero-btn red-btn">Şimdi Keşfet...</a>
+    </div>             <!-----iki tane|||class------->
+
+        <div class="about-col">
+             <img src="images/01.jpeg" alt="">
+        </div>
+
+</div>
+</section>
+
+<!-------footer------>
+
+<footer>
+    <h4>Hakkımızda</h4>
+        <p>DeathCoffeeCafe, kahve tutkunlarına özel bir deneyim sunan özel bir kafedir. Bizim amacımız, misafirlerimize yüksek kaliteli kahve çeşitleri sunmak ve unutulmaz bir kahve deneyimi yaşatmaktır. </p>
+            <div class="icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkledin-in"></i>
+                <i class="fab fa-pinteresr-p"></i>
+                <p>Çarşamba Ticaret Borsası Meslek Yüksekokulu Tarafından <i class="far fa-heart"></i></p>
+            </div>
+</footer>
+
+
+<!---menu-->
+
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        
+        function hideMenu(){
+            navLinks.style.right =  "-200px";
+        }
+    </script>
+    
+</body>
+</html>
